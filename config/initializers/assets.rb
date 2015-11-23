@@ -9,3 +9,17 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
+Rails.application.config.assets.precompile += %w( animate.css )
+Rails.application.config.assets.precompile += %w( animation.css )
+
+Rails.application.config.assets.precompile += %w( respond-1.1.0.min.js )
+Rails.application.config.assets.precompile += %w( html5shiv.js )
+Rails.application.config.assets.precompile += %w( html5element.js )
+
+Rails.application.config.assets.precompile += %w( animation.js )
+Rails.application.config.assets.precompile += %w( jquery-scrolltofixed.js )
+Rails.application.config.assets.precompile += %w( jquery.nav.js )
+Rails.application.config.assets.precompile += %w( jquery.easing.1.3.js )
+Rails.application.config.assets.precompile += %w( jquery.isotope.js )
+Rails.application.config.assets.precompile += %w( wow.js )
+Rails.application.config.assets.precompile += %w( custom.js )

@@ -1,0 +1,56 @@
+ <!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <h2>Get In Touch</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+          <div class="col-lg-4">
+           
+          </div>
+          <div class="col-lg-4">
+          
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		 <div class="contact_info">
+                            <div class="detail">
+                                <h4>Rubix Technologies</h4>
+                                <p>6, Kruti Industrial Estate<br>
+                                Sangam Press Lane<br>
+                                Kothrud<br>
+                                Pune - 411038</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Call us</h4>
+                                <p><a href="tel:+912025444473 ">+91-2025444473</a>  |  <a href="tel:+912025424829 ">+91-2025424829</a></p>
+                            </div>
+                            <div class="detail">
+                                <h4>Email us</h4>
+                                <p>sales@rubixtechno.com</p>
+                            </div> 
+                        </div>
+          <ul class="social_links">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-skype"></i></a></li> 
+          </ul>
+        </div>
+        <div class="col-lg-8 wow fadeInLeft delay-06s">
+        <%= yield :form %>
+        <%= yield :msg %>
+          
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © <%= Date.today.year %> <a href="http://rubix-techno.com">Rubix Technologies</a></span> </div>
+  </div>
+</footer>

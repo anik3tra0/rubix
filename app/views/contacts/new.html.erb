@@ -1,0 +1,18 @@
+<%= content_for :form do %>
+  <div class="form">
+    <%= form_for @contact do |f| %>
+    <%= f.text_field :name, required: true, class: "input-text", placeholder: "Your Name" %>
+  <br/>
+    <%= f.text_field :email, required: true, class: "input-text", placeholder: "Your Email"  %>
+  <br/>
+    <%= f.text_area :message, as: :text, class: "input-text text-area", placeholder: "Your Message"  %>
+
+  <div class="hidden">
+    <%= f.label :nickname %><br/>
+    <%= f.text_field :nickname, hint: 'leave this page blank' %>
+  </div>
+
+   <%= f.submit 'Let\'s Engage', class: "input-btn" %>
+  <% end %>
+  </div>
+<% end %>
