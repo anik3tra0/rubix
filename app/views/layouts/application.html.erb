@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
+	<%= render '\layouts/meta' %>
+	<%= csrf_meta_tags %>
   <title>Rubix Technologies</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	<%= stylesheet_link_tag    'animate', media: 'all', 'data-turbolinks-track' => true %>
@@ -12,8 +12,7 @@
   <%= javascript_include_tag 'html5shiv', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'html5element', 'data-turbolinks-track' => true %>
 <![endif]-->
-  <%= csrf_meta_tags %>
-  <link rel="icon" href="favicon.ico" type="image/png">
+	<%= render '\layouts/favicon' %>
 </head>
 <body>
 <%= render '\layouts/header' %>
